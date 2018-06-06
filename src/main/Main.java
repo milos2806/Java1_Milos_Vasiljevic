@@ -1,6 +1,7 @@
 
 package main;
 
+import media.Radio;
 import media.Television;
 
 
@@ -12,8 +13,14 @@ public class Main {
         //Samsung.setVolume(5);
         //Samsung.setCurrentProgram(10);
         
-        Samsung.showProgram();
-    }
+        //Samsung.showProgram();
     
+        Radio Sony= new Radio(91.8 ,600 ,'A');
+        //Radio.setBand(true);
+        //Radio.setFmFrenquency(91.8);
+        //Radio.setAmFrequency(600);
+        
+       Sony.ListenRadio();
+    }
     
 }
