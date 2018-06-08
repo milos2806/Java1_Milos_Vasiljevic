@@ -12,7 +12,7 @@ public class Television {
 
         this.volume =0;
         this.currentProgram = 0;
-        this.turnOn =  true;
+        this.turnOn =  false;
     }
  
     public Television(int volume, int currentProgram, boolean turnOn) {
